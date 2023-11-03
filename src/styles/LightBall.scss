@@ -1,0 +1,38 @@
+.light-ball {
+  width: 452px;
+  height: 312px;
+  flex-shrink: 0;
+  background-color: #00B7F1;
+  border-radius: 452px;
+  filter: blur(149.5px);
+  position: absolute;
+  top: 15%;
+  transform: translateX(-50%);
+  transition: opacity 0.3s ease;
+  z-index: -55;
+
+  &.left {
+    left: 15%;
+  }
+
+  &.right {
+    right: 0;
+  }
+
+  @keyframes oscillate {
+    0% {
+      transform: translateX(-50%) rotate(0deg);
+    }
+    100% {
+      transform: translateX(-50%) rotate(360deg);
+    }
+  }
+  animation: oscillate 8s infinite alternate; // Utilisation de l'animation
+
+  @media (max-width: 768px) {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50vw;
+    transform: translate(-50%, -50%);
+  }
+}

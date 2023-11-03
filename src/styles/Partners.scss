@@ -1,0 +1,55 @@
+.Partners {
+    margin-top: 15%;
+    width: 100%;
+    max-width: 1440px;
+    height: 307px;
+    display: flex;
+    flex-direction: column; /* Pour empiler les éléments verticalement */
+    flex-shrink: 0;
+    background: #000;
+    padding: 20px;
+
+  .titre {
+    margin-left: 15%;
+    color: #fff;
+    font-family: 'Neue Haas Grotesk Display Pro';
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 106.523%; /* 33.022px */
+    margin-bottom: 20px; /* Ajoute un espace entre le titre et les logos */
+  }
+
+  .logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centre les logos horizontalement */
+    align-items: center; /* Centre les logos verticalement */
+    gap: 20px;
+    flex-grow: 1; /* Fait en sorte que les logos occupent tout l'espace disponible */
+    
+  }
+  .butonContainer{
+    display: flex;
+    justify-content: center;
+
+    .bouton {
+        width: 70vw;
+        display: inline-flex;
+        padding: 21px 34px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 39.5px;
+        font-family: 'Neue Haas Grotesk Display Pro';
+        font-size: 19.3px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 20px; /* Pour aligner le bouton en bas */
+        cursor: pointer;
+  }
+  }
+
+  
+}

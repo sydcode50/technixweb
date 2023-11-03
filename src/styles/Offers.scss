@@ -1,0 +1,50 @@
+$primaryColor: #ff274b;
+$background-color: #f7bcf7;
+$lightColor: #ffffff;
+$bgColor-1: #171a1c;
+$bgColor-2: #22282a;
+$padding: 8%;
+
+
+.services{
+    background-color: transparent;
+    padding: 2rem $padding;
+
+    .text-center{
+        text-align: center;
+    }
+
+    .box{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-shrink: 0;
+    }
+    .card{
+        width: 300px;
+        margin: 5px;
+        background-color: $bgColor-2;
+        border-radius: 20px;
+        padding: 1.3rem 2rem;
+        text-align: center;
+    }
+
+    .card i{
+        font-size: 3.12rem;
+        text-align: center;
+        color: $primaryColor;
+        margin: 2rem;
+    }
+    p{
+        color: $primaryColor;
+        letter-spacing: 1px;
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+    h5{
+        font-size: 1.37rem;
+        margin-bottom: 1.5rem;
+        letter-spacing: 2px;
+    }
+}
+

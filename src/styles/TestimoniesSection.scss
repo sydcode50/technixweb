@@ -1,0 +1,56 @@
+.testimonies-section {
+  align-items: center;
+  overflow: hidden;
+
+  .title {
+    h2{
+      color: #fff;
+      font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+      font-size: 31px;
+      font-weight: 700;
+      line-height: 33.022px;
+      letter-spacing: 0.31px;
+      text-transform: uppercase;
+      align-items: center;
+      text-align: center;
+    }
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    .stars {
+      width: 158px;
+      height: 30px;
+      flex-shrink: 0;
+      border-radius: 44px;
+      background: rgba(255, 255, 255, 0.79);
+      /* SVG stars styling */
+    }
+  }
+.TestimoniesSlider{
+  position: relative;
+}
+.TestimoniesSlider::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 20%;
+    height: 362px;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, #151C21 0.21%, rgba(21, 28, 33, 0.00) 106.73%);
+    z-index: 1000;
+}
+
+  
+}
+
+@media (max-width: 767px) {
+  .testimonies-section{
+    .title{
+      flex-direction: column;
+    }
+  }
+}

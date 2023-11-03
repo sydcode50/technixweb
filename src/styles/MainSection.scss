@@ -1,0 +1,30 @@
+@import './main';
+$primary-color: #43D9BB;
+$background-color: rgba(255, 255, 255, 0.12);
+$text-color: white;
+$input-border-color: rgba(255, 255, 255, 0.26);
+$input-placeholder-color: rgba(255, 255, 255, 0.55);
+.main-section {
+  color: $text-color;
+  overflow-x: hidden;
+  position: relative;
+  .rightLightBall{
+    position: relative;
+    display: flex;
+  }
+  .app{
+    margin-top: 15%;
+    .faqtitle{
+      margin-left: 16%;
+      color: #fff;
+      font-family: 'Neue Haas Grotesk Display Pro';
+      font-size: 31px;
+      font-weight: 600;
+      line-height: 106.523%; /* 53.261px */
+      text-transform: uppercase;
+      margin-bottom: 30px;
+      margin-top: 40px;
+    }
+  }
+  
+}
